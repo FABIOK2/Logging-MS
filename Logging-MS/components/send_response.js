@@ -1,3 +1,3 @@
 function send_response(feedback) {
-	return feedback;
+	return {"message": feedback};
 }

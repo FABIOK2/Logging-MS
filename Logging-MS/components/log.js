@@ -40,6 +40,7 @@ function log_content(logger, content) {
 			break;
 		case "fatal":
 			logger.fatal(result);
+			break;
 		default: break;
 	}
 	return result
