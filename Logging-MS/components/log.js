@@ -31,10 +31,13 @@ function log_content(logger, content) {
 			break;
 		case "info":
 			logger.info(result);
+			break;
 		case "warn":
 			logger.warn(result);
+			break;
 		case "error":
 			logger.error(result);
+			break;
 		case "fatal":
 			logger.fatal(result);
 		default: break;

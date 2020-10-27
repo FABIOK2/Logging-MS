@@ -11,7 +11,7 @@ import { log } from './components/log.js'
 app.get('/', (req, res) => {
 	log_content = process_request(req);
 	log_feedback = log(log_content)
-	res.send(log(log_feedback))
+	res.send(send_response(log_feedback))
 });
 
 app.listen(port, () => {
